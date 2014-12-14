@@ -18,6 +18,11 @@ Build your docker image  :    ** sh pyspark-docker/build-images **
 Run the container with the notebook server : 
       
       **docker -d -p 8888:8888 samklr/pyspark-noteboook ipython notebook --profile=pyspark**
+      
+If you just want to play with spark from the command line :
+      
+      ** sudo docker run -i -t samklr/pyspark-notebook pyspark **
+      ** sudo docker run -i -t samklr/pyspark-notebook spark-shell **
 
 
 Head to your browser  :  * http://[your_IP_address or localhost]:8888 *
