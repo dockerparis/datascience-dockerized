@@ -13,14 +13,14 @@ Clone
 
 Get into pyspark-docker
 
-Build your docker image  : ** ./build-images**
+Build your docker image  :    ** sh pyspark-docker/build-images **
 
 Run the container with the notebook server : 
       
       **docker -d -p 8888:8888 samklr/pyspark-noteboook ipython notebook --profile=pyspark**
 
 
-Head to your browser  :  **http://[your_IP_address or localhost]:8888**
+Head to your browser  :  * http://[your_IP_address or localhost]:8888 *
 
 
 Next :
