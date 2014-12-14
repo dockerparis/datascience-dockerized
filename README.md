@@ -17,7 +17,7 @@ Build your docker image  :    ** sh pyspark-docker/build-images **
 
 Run the container with the notebook server : 
       
-      **docker run -d -p 8888:8888 samklr/pyspark-noteboook ipython notebook --profile=pyspark**
+      **docker run -d -p 8888:8888 samklr/pyspark-notebook ipython notebook --profile=pyspark**
       
 If you just want to play with spark from the command line :
       
